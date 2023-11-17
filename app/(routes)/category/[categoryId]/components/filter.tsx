@@ -58,7 +58,7 @@ const Filter: React.FC<FilterProps> = ({
                         )}
                         onClick={() => onClick(filter.id)}
                         >
-
+                            {filter.name}
                         </Button>
                     </div>
                 ))}
